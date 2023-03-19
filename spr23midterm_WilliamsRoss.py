@@ -4,8 +4,6 @@ import math
 import re
 
 
-
-
 def birthday_calc(season,age):
     # year counts from 2022 because these dates have not yet occurred in 2023
     year = 2022 - int(age.strip())
@@ -200,8 +198,8 @@ for element in my_array:
     print("name is: " + name)
     ##########################################
 
-    ##################### Split on comma because some data elements (like color, wright, and origin)
-    ########################### have a varied number of words
+    # Split on comma because some data elements (like color, wright, and origin)
+    # have a varied number of words
     after_split_on_comma = my_array[array_line].split(", ")
 
     print(after_split_on_comma)
